@@ -1,7 +1,7 @@
 # kappa-portfolio
  My personal kappa™ website available now at kappa.unnamedsoftware.com
 
-[![Website](https://github.com/Kappa-c0dex/)](https://kappa.unnamedsoftware.com)
+[![Website](https://github.com/kappaC0dex/kappa-personal/blob/main/icoimg.png)](https://kappa.unnamedsoftware.com)
  
 
 ## All of this code was build on [twitch.tv](https://twitch.tv/kappanewfrog)
