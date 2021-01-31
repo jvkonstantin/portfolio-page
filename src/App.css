@@ -1,0 +1,133 @@
+
+
+.App-logo {
+  border-radius: 30px;
+  height: 47vmin;
+  pointer-events: none;
+}
+
+.App-header  a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.App-header {
+  text-align: right;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header > * {
+  text-align: right;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+h1 {
+  font-family: 'Fira Code', monospace;
+}
+
+p {
+
+  font-family: 'Fira Code', monospace !important;
+}
+
+
+.App-disc {
+  margin-right: 30px ; 
+}
+
+.Social-links{
+
+  max-width: fit-content;
+  margin-left: auto;
+}
+
+
+
+.Social-links > hr {
+
+  text-align:left;
+  margin-left:0
+}
+
+ a:hover{
+  color: grey;
+  
+}
+
+.Social-links > a{
+  margin-right: 10px;
+}
+
+p > i:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+p > div{
+  margin-bottom: 20px;
+}
+
+.width-limiter{
+  display: flex;
+  max-width: 800px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-title{
+  margin-top: 0;
+
+}
+
+#underline > *{
+  text-decoration: underline;
+}
+
+.Location:hover{
+  text-decoration: underline;
+}
+
+footer{
+  max-width: 1080px;
+  font-size: 8px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > *{
+  margin-right: 15px;
+}
+
+footer > div:first-of-type{
+  
+  margin-left: 15px;
+}
+
