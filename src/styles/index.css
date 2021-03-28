@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --font-color: #000000;
+    --bg-color: #ffffff;
+    --hover-color: grey;
+    --heading-color: #000000;
+    --dropshadow: drop-shadow(8px 4px 4px grey);
+}
+
+.App-disc h1 {
+    font-size: 1.5em;
+}
+
+/* :root {
+  --primary-color: #282c34;
+  --secondary-color: #ffffff;
+  --font-color: #ffffff;
+  --bg-color: #282c34;
+  --hover-color: grey;
+  --heading-color: #ffffff;
+  --dropshadow: drop-shadow(8px 4px 4px grey);
+} */
+
+
+/* APP*/
+
+.App-logo {
+    filter: var(--dropshadow);
+    border-radius: 30px;
+    height: 47vmin;
+    pointer-events: none;
+}
+
+.App-header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.App-header {
+    text-align: right;
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: var(--secondary-color);
+}
+
+.App-header>* {
+    text-align: right;
+}
+
+.App-disc {
+    margin-right: 30px;
+}
+
+.App-title {
+    margin-top: 0;
+
+}
+
+/* END APP */
+
+
+/*  */
+.Social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: fit-content;
+    margin-left: auto;
+    min-width: 161px;
+}
+
+.Social-links a {
+    height: 30px;
+    width: 30px;
+}
+
+.Social-links svg {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* TAGs */
+
+h1 {
+    font-family: 'Fira Code', monospace;
+}
+
+a:hover {
+    color: var(--hover-color);
+
+}
+
+p {
+
+    font-family: 'Fira Code', monospace !important;
+}
+
+
+p>i:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
+p>div {
+    margin-bottom: 20px;
+}
+
+footer {
+    max-width: 1080px;
+    font-size: 31%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+
+footer>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>* {
+    margin-right: 15px;
+}
+
+footer>div:first-of-type {
+
+    margin-left: 15px;
+}
+
+span:hover {
+    cursor: default;
+}
+
+/* TAGs */
+
+
+
+.width-limiter {
+    display: flex;
+    max-width: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .width-limiter {
+        max-width: 340px;
+
+    }
+}
+
+
+#underline>* {
+    text-decoration: underline;
+}
+
+.Location:hover {
+    text-decoration: underline;
+}
+
+
+.App-Footer-Link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-Footer-Link svg {
+    height: 22px;
+    width: 22px;
+}
+
+.App-Footer-Link span {
+    font-size: large;
+}
+
+.App-Footer-Link a {
+    height: 22px;
+    margin: 0px 4px 0px 4px;
+}
