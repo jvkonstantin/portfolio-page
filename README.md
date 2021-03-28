@@ -1,14 +1,14 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.unnamedsoftware.com">
-    <img alt="Kappa" src="https://i.imgur.com/qvp4OOU.png" width="60" />
+    <img alt="Kappa" src="https://i.imgur.com/qvp4OOU.png" width="150" />
   </a>
 </p>
 <h1 align="center">
   Kappa C0dex Personal Website Using GatsbyJS
 </h1>
 
-I made this as a updater to my ["old personal page "]("https://github.com/kappaC0dex/kappa-personal")
+I made this as a updater to my [old personal-page repo](https://github.com/kappaC0dex/kappa-personal)
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
