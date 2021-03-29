@@ -7,10 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+code{
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+        monospace !important;
+    color: #000000 !important;
 }
+
 
 
 :root {
@@ -24,7 +26,7 @@ code {
 }
 
 .App-disc h1 {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
 }
 
 /* :root {
@@ -43,9 +45,17 @@ code {
 .App-logo {
     filter: var(--dropshadow);
     border-radius: 30px;
-    height: 47vmin;
+    height: 36vmin;
     pointer-events: none;
+    width: -webkit-fill-available;
+    overflow: hidden;
 }
+
+/* .App-logo img{
+    height: -webkit-fill-available;
+    width:-webkit-fill-available;
+ 
+} */
 
 .App-header a {
     color: var(--secondary-color);
@@ -158,6 +168,11 @@ footer>div:first-of-type {
     margin-left: 15px;
 }
 
+footer h1 {
+    font-size: 2em !important;
+}
+
+
 span:hover {
     cursor: default;
 }
@@ -178,6 +193,24 @@ span:hover {
     .width-limiter {
         max-width: 340px;
 
+    }
+    .App-logo {
+        width: 33vmin;
+        height: 33vmin;
+        margin-bottom: 10px;
+        margin-left: 115px;
+    }
+
+    .width-limiter {
+        flex-direction: column-reverse;
+
+    }
+
+    .App-logo #IRL{
+         margin: 0px 0px 10px 0px;
+    }
+    .App-logo #SKELETON {
+        margin: 0px 0px 0px 0px;
     }
 }
 

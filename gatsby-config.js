@@ -6,6 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  basePath: '/docs',
+
   plugins: [],
 }
