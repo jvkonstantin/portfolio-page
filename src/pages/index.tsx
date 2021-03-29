@@ -14,7 +14,7 @@ export default function Home() {
       <Helmet>
         <meta
           name="description"
-          content="Unnamed Software is the main hub for all things related to well.... unnamed™ "
+          content="Kappa™... a genius a great man a great programmer ... hahahhaha "
         />
         <meta
           name="keywords"
