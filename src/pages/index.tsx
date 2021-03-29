@@ -128,10 +128,7 @@ export default function Home() {
             </a>{" "}
             <span>•</span>
             <span />{" "}
-            <a
-              href="https://unnamedsoftware.com/kappa/contact"
-              target="__blank"
-            >
+            <a href="mailto:unnamedbusinesstm@gmail.com" target="__blank">
               <IoMdMail />
             </a>{" "}
             <span>•</span>

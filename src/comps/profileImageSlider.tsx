@@ -15,7 +15,7 @@ const profileImageSlider = () => {
   return (
     <Carousel fade controls={false} indicators={false}>
       {images.map(image => (
-        <Carousel.Item interval={10000}>
+        <Carousel.Item interval={20000}>
           {console.log(image["id"])}
           <img
             src={image["url"]}
