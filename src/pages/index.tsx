@@ -127,7 +127,7 @@ export default function Home() {
             </a>{" "}
             <span>•</span>
             <span />{" "}
-            <a href="https://unnamedsoftware.com/kappa/github" target="__blank">
+            <a href="https://unnamedsoftware.com/members/kappa/github" target="__blank">
               {" "}
               <DiGithubAlt />
             </a>{" "}
