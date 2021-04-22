@@ -105,12 +105,6 @@ export default function Home() {
             </code>
           </div>
           <div className="App-logo">
-            {/* <img
-              // src=""
-
-              src="/pfp.jpg"
-              alt="pfp"
-            /> */}
             <ProfileImageSlider />
           </div>
         </div>
@@ -121,7 +115,7 @@ export default function Home() {
           <div className="App-Footer-Link">
             <span />{" "}
             <a
-              href="https://unnamedsoftware.com/kappa/spotify"
+              href="https://unnamedsoftware.com/members/kappa/spotify"
               target="__blank"
             >
               <FaSpotify />
@@ -140,19 +134,11 @@ export default function Home() {
             <span>•</span>
             <span />{" "}
             <a
-              href="https://unnamedsoftware.com/kappa/twitter"
+              href="https://unnamedsoftware.com/members/kappa/twitter"
               target="__blank"
             >
               <AiOutlineTwitter />
             </a>{" "}
-            <span>•</span>
-            <span />{" "}
-            <a
-              href="https://unnamedsoftware.com/kappa/discordprofile"
-              target="__blank"
-            >
-              <FaDiscord />
-            </a>
           </div>
         </footer>
       </div>
