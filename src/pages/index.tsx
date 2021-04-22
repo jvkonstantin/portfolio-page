@@ -84,7 +84,7 @@ export default function Home() {
                     <a
                       data-for="custom-class"
                       data-tip="join the discord"
-                      href="https://unnamedsoftware.com/members/discord"
+                      href="https://unnamedsoftware.com/discord"
                     >
                       <FaDiscord />
                     </a>
