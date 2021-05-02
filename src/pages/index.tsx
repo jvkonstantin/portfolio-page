@@ -62,7 +62,7 @@ export default function Home() {
                     <a
                       data-for="custom-class"
                       data-tip="find my projects on GitHub!"
-                      href="https://unnamedsoftware.com/members/kappa/github"
+                      href="https://unnamedsoftware.com/kappa/github"
                       style={{ marginLeft: "-5px" }}
                       target="__blank"
                     >
@@ -74,7 +74,7 @@ export default function Home() {
                     <a
                       data-for="custom-class"
                       data-tip="i tweet things i guess?"
-                      href="https://unnamedsoftware.com/members/kappa/twitter"
+                      href="https://unnamedsoftware.com/kappa/twitter"
                       target="__blank"
                     >
                       <AiOutlineTwitter />
@@ -115,7 +115,7 @@ export default function Home() {
           <div className="App-Footer-Link">
             <span />{" "}
             <a
-              href="https://unnamedsoftware.com/members/kappa/spotify"
+              href="https://unnamedsoftware.com/kappa/spotify"
               target="__blank"
             >
               <FaSpotify />
@@ -127,14 +127,14 @@ export default function Home() {
             </a>{" "}
             <span>•</span>
             <span />{" "}
-            <a href="https://unnamedsoftware.com/members/kappa/github" target="__blank">
+            <a href="https://unnamedsoftware.com/kappa/github" target="__blank">
               {" "}
               <DiGithubAlt />
             </a>{" "}
             <span>•</span>
             <span />{" "}
             <a
-              href="https://unnamedsoftware.com/members/kappa/twitter"
+              href="https://unnamedsoftware.com/kappa/twitter"
               target="__blank"
             >
               <AiOutlineTwitter />
