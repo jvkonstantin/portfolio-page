@@ -214,6 +214,9 @@ span:hover {
     }
 }
 
+@media only screen and (max-height: 600px) {
+    
+}
 
 #underline>* {
     text-decoration: underline;
