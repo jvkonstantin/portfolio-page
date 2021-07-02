@@ -14,21 +14,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@types/react-bootstrap": "^0.32.25",
-    "@types/react-helmet": "^6.1.0",
-    "@types/react-icons": "^3.0.0",
-    "bootstrap": "^4.6.0",
-    "gatsby": "^3.1.2",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.5.2",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0",
-    "react-tooltip": "^4.2.17",
-    "typescript": "^4.2.3"
+    "@types/react-bootstrap": "latest",
+    "@types/react-helmet": "latest",
+    "@types/react-icons": "latest",
+    "bootstrap": "latest",
+    "gatsby": "latest",
+    "react": "latest",
+    "react-bootstrap": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest",
+    "react-icons": "latest",
+    "react-tooltip": "latest",
+    "typescript": "latest"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "latest"
   },
   "repository": {
     "type": "git",

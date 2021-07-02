@@ -28,7 +28,7 @@ export default function Home() {
         <div className="width-limiter">
           <div className="App-disc">
             <p id="underline" style={{ fontSize: "20px", marginBottom: "0" }}>
-              <a href="https://githome.vogklis.com">Git Website</a>{" "}
+              <a href="https://git.vogklis.com">Git Website</a>{" "}
               <a href="https://unnamedsoftware.com/kappa/portfolio">
                 Portfolio
               </a>
