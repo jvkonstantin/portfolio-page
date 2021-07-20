@@ -195,6 +195,13 @@ span:hover {
     }
 }
 
+@media only screen and (max-width: 870px) {
+    .twitter {
+        display: none;
+        position: absolute;
+    }
+}
+
 #underline>* {
     text-decoration: underline;
 }
