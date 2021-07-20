@@ -188,6 +188,11 @@ span:hover {
     .App-disc {
         font-size: 10px !important;
     }
+
+    .twitter {
+        display: none;
+        position: absolute;
+    }
 }
 
 #underline>* {
@@ -218,4 +223,11 @@ span:hover {
 .App-Footer-Link a {
     height: 22px;
     margin: 0px 4px 0px 4px;
+}
+
+.twitter {
+    max-width: max-content;
+    position: relative;
+    top: -46rem;
+    right: -20rem;
 }

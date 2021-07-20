@@ -110,6 +110,22 @@ export default function Home() {
                 </div>
               </p>
             </code>
+            <div className="twitter">
+              <a
+                className="twitter-timeline"
+                data-width="800"
+                data-height="500"
+                data-theme="light"
+                href="https://twitter.com/kappac0dex?ref_src=twsrc%5Etfw"
+              >
+                Tweets by kappac0dex
+              </a>{" "}
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charSet="utf-8"
+              ></script>
+            </div>
           </div>
         </div>
         <footer>

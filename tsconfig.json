@@ -30,5 +30,5 @@
     "jest",
     "src/setupTests.ts"
   ],
-  "include": ["custom.d.ts"]
+  "include": ["custom.d.ts", "index.d.ts"]
 }
