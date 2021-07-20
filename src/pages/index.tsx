@@ -21,23 +21,31 @@ export default function Home() {
           content="unnamed, unnamedsoftware, unnamedsoftware™, unnamed software, software™, unnamedsoftware™, kappac0dex, xunderal, lingduck, kappa™, unnamed[tv], unnamedTV, unnamed[tm] "
         />
         <meta name="author" content="Kappa™" />
-        <title>Kappa C0dex</title>
+        <title>Home | Kappa C0dex</title>
       </Helmet>
       <div className="App-header">
-        <div style={{ position: "absolute", left: "23px", top: "23px" }}></div>
-        <div className="width-limiter">
+        <div>
           <div className="App-disc">
-            <p id="underline" style={{ fontSize: "20px", marginBottom: "0" }}>
-              <a href="https://git.vogklis.com">Git Website</a>{" "}
-              <a href="https://unnamedsoftware.com/kappa/portfolio">
-                Portfolio
-              </a>
-            </p>
-            <h1 className="App-title">Kappa C0dex</h1>
             <code>
               <p>
                 <div>
-                  This is me. Or is it? <br />
+                  <div style={{ position: "relative", bottom: "10px" }}>
+                    <img
+                      className="App-logo"
+                      src="/background-black.svg"
+                      style={{ marginTop: "10px" }}
+                    />
+                  </div>
+                  <h1 className="App-title">Kappa C0dex</h1>
+                  <p
+                    id="underline"
+                    style={{ fontSize: "20px", marginBottom: "0" }}
+                  >
+                    <a href="https://git.vogklis.com">Git Website</a>{" "}
+                    <a href="/portfolio">Portfolio</a>
+                  </p>
+
+                  <p>This is me. Or is it?</p>
                 </div>
                 <div>
                   I am a front-end / backend React{" (Gatby, Next, Typescript)"}{" "}
@@ -56,8 +64,6 @@ export default function Home() {
 
                 <div className="Social-links">
                   {`[`}
-                  {/* a data-for="custom-class"
-                  data-tip="hover on me will keep the tooltip" */}
                   <SocialTooltip>
                     <a
                       data-for="custom-class"
@@ -83,10 +89,10 @@ export default function Home() {
                   <SocialTooltip>
                     <a
                       data-for="custom-class"
-                      data-tip="join the discord"
-                      href="https://unnamedsoftware.com/discord"
+                      data-tip="See my profile on spotify"
+                      href="https://unnamedsoftware.com/kappa/spotify"
                     >
-                      <FaDiscord />
+                      <FaSpotify style={{ height: "25px" }} />
                     </a>
                   </SocialTooltip>
                   <SocialTooltip>
@@ -104,9 +110,6 @@ export default function Home() {
               </p>
             </code>
           </div>
-          <div className="App-logo">
-            <ProfileImageSlider />
-          </div>
         </div>
         <footer>
           <div>
@@ -114,11 +117,8 @@ export default function Home() {
           </div>
           <div className="App-Footer-Link">
             <span />{" "}
-            <a
-              href="https://unnamedsoftware.com/kappa/spotify"
-              target="__blank"
-            >
-              <FaSpotify />
+            <a href="https://unnamedsoftware.com/discord" target="__blank">
+              <FaDiscord />
             </a>{" "}
             <span>•</span>
             <span />{" "}
