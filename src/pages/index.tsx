@@ -8,6 +8,7 @@ import { IoMdMail } from "react-icons/io"
 import { BsPeopleFill } from "react-icons/bs"
 import SocialTooltip from "../comps/socialTooltip"
 import { Helmet } from "react-helmet"
+import BlackScelly from "../../static/background-black.svg"
 export default function Home() {
   return (
     <>
@@ -32,7 +33,7 @@ export default function Home() {
                   <div style={{ position: "relative", bottom: "10px" }}>
                     <img
                       className="App-logo"
-                      src="/background-black.svg"
+                      src={BlackScelly}
                       style={{ marginTop: "10px" }}
                     />
                   </div>

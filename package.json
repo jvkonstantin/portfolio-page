@@ -19,6 +19,7 @@
     "@types/react-icons": "latest",
     "bootstrap": "latest",
     "gatsby": "latest",
+    "gatsby-plugin-react-svg": "^3.0.1",
     "react": "latest",
     "react-bootstrap": "latest",
     "react-dom": "latest",
