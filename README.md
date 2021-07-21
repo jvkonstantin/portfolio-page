@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.unnamedsoftware.com">
-  <img alt="Kappa" src="https://raw.githubusercontent.com/kappaC0dex/portfolio/gatsby-main/static/favicon.ico" width="150" />
+  <img alt="Kappa" src="https://raw.githubusercontent.com/kappaC0dex/portfolio/master/static/favicon.png" width="150" />
   </a>
 </p>
 <h1 align="center">
