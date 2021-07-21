@@ -1,5 +1,4 @@
 import React from "react"
-import ProfileImageSlider from "../comps/profileImageSlider"
 import "../styles/index.css"
 import { DiGithubAlt } from "react-icons/di"
 import { AiOutlineTwitter } from "react-icons/ai"
@@ -8,7 +7,9 @@ import { IoMdMail } from "react-icons/io"
 import { BsPeopleFill } from "react-icons/bs"
 import SocialTooltip from "../comps/socialTooltip"
 import { Helmet } from "react-helmet"
-import BlackScelly from "../../static/background-black.svg"
+import BlackScelly from "../../static/background-black.png"
+import TwitterTimeline from "../comps/twitterTimeline"
+
 export default function Home() {
   return (
     <>
@@ -30,12 +31,32 @@ export default function Home() {
             <code>
               <p>
                 <div>
-                  <div style={{ position: "relative", bottom: "10px" }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      position: "relative",
+                      bottom: "10px",
+                    }}
+                  >
                     <img
                       className="App-logo"
                       src={BlackScelly}
                       style={{ marginTop: "10px" }}
                     />
+                    {/* <div className="twitter"> */}
+                    <div
+                      style={{
+                        height: "fit-content",
+                        position: "relative",
+                        top: "6rem",
+                        right: "-1rem",
+                      }}
+                      className="twitter-timeline"
+                    >
+                      <TwitterTimeline />
+                    </div>
+                    {/* </div> */}
                   </div>
                   <h1 className="App-title">Kappa C0dex</h1>
                   <p
@@ -110,22 +131,6 @@ export default function Home() {
                 </div>
               </p>
             </code>
-            <div className="twitter">
-              <a
-                className="twitter-timeline"
-                data-width="800"
-                data-height="500"
-                data-theme="light"
-                href="https://twitter.com/kappac0dex?ref_src=twsrc%5Etfw"
-              >
-                Tweets by kappac0dex
-              </a>{" "}
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charSet="utf-8"
-              ></script>
-            </div>
           </div>
         </div>
         <footer>

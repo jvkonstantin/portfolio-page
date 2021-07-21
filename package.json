@@ -26,6 +26,7 @@
     "react-helmet": "latest",
     "react-icons": "latest",
     "react-tooltip": "latest",
+    "react-twitter-embed": "^3.0.3",
     "typescript": "latest"
   },
   "devDependencies": {
