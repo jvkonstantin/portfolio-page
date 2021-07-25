@@ -64,7 +64,7 @@ export default function Home() {
                     style={{ fontSize: "20px", marginBottom: "0" }}
                   >
                     <a href="https://git.vogklis.com">Git Website</a>{" "}
-                    <a href="/portfolio">Portfolio</a>
+                    <a href="https://blog.vogklis.com">Portfolio</a>
                   </p>
 
                   <p>This is me. Or is it?</p>
