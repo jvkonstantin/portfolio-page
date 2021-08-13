@@ -23,7 +23,7 @@ export default function Home() {
           content="unnamed, unnamedsoftware, unnamedsoftware™, unnamed software, software™, unnamedsoftware™, kappac0dex, xunderal, lingduck, kappa™, unnamed[tv], unnamedTV, unnamed[tm] "
         />
         <meta name="author" content="Kappa™" />
-        <title>Home | Kappa C0dex</title>
+        <title>Home | Kappa C0dex</title>s
       </Helmet>
       <div className="App-header">
         <div>
