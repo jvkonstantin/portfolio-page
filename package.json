@@ -14,22 +14,23 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@types/react-bootstrap": "latest",
-    "@types/react-helmet": "latest",
-    "@types/react-icons": "latest",
     "bootstrap": "latest",
-    "gatsby": "latest",
-    "gatsby-plugin-react-svg": "^3.0.1",
+    "gatsby": "^2.32.13",
+    "gatsby-plugin-react-svg": "latest",
+    "joi": "^17.4.2",
     "react": "latest",
     "react-bootstrap": "latest",
     "react-dom": "latest",
     "react-helmet": "latest",
     "react-icons": "latest",
     "react-tooltip": "latest",
-    "react-twitter-embed": "^3.0.3",
+    "react-twitter-embed": "latest",
     "typescript": "latest"
   },
   "devDependencies": {
+    "@types/react-bootstrap": "latest",
+    "@types/react-helmet": "latest",
+    "@types/react-icons": "^3.0.0",
     "prettier": "latest"
   },
   "repository": {

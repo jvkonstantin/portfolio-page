@@ -7,7 +7,7 @@ import { IoMdMail } from "react-icons/io"
 import { BsPeopleFill } from "react-icons/bs"
 import SocialTooltip from "../comps/socialTooltip"
 import { Helmet } from "react-helmet"
-import BlackScelly from "../../static/background-black.png"
+import BlackScelly from "../../static/background-black.svg"
 import TwitterTimeline from "../comps/twitterTimeline"
 
 export default function Home() {
