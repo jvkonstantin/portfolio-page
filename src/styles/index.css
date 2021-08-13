@@ -118,7 +118,7 @@ footer {
     max-width: 1080px;
     font-size: 31%;
     height: 15px;
-    position: absolute;
+    position: sticky;
     bottom: 20px;
     /* background-color: var(--bg-color); */
     display: flex;
