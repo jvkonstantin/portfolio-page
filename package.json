@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "node": "17.0.1",
     "framer-motion": "^5.2.1",
     "next": "latest",
     "next-themes": "^0.0.15",
