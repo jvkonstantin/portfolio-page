@@ -12,10 +12,9 @@ export default function About() {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Im Kappa, a web developer and general linux programmer. I
+              currently reside in the free country of {"[REDACTED]"} and my real
+              name is {"[REDACTED]"}
             </p>
           </div>
         </div>
@@ -25,7 +24,7 @@ export default function About() {
               src={profile}
               alt="Profile"
               priority={true}
-              className="rounded-full ring-offset-2 object-cover"
+              className="rounded-full  object-cover"
               width={250}
               height={250}
               placeholder="blur"
