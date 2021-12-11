@@ -26,13 +26,13 @@ export default function About() {
           <div className="flex-shrink-0 lg:mt-12 lg:px-5 mb-10 ">
             <div className="flex rounded-full border-4 border-black border-dashed dark:border-white ">
               <Image
-                src="https://scwp.unnamedsoftware.com/hide.png"
+                src="http://scwp.unnamedsoftware.com/hide.png"
                 alt="Profile"
                 priority={true}
                 className="rounded-full  object-cover"
                 width={250}
                 height={250}
-                placeholder="blur"
+                // placeholder="blur"
               />
             </div>
           </div>
