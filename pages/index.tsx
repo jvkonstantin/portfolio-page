@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="space-y-14 lg:space-y-24">
       <Head>
-        <title>Fapp</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Kappa</title>
+        <link rel="icon" href="/hat.png" />
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">
