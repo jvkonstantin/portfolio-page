@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profile from "../public/assets/photos/hide.png";
+import profile from "../public/assets/photos/hide.webp";
 import Head from "next/head";
 
 export default function About() {
@@ -26,7 +26,7 @@ export default function About() {
           <div className="flex-shrink-0 lg:mt-12 lg:px-5 mb-10 ">
             <div className="flex rounded-full border-4 border-black border-dashed dark:border-white ">
               <Image
-                src="https://scwp.unnamedsoftware.com/hide.webp"
+                src={profile}
                 alt="Profile"
                 priority={true}
                 className="rounded-full  object-cover"
