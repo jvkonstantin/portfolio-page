@@ -8,6 +8,7 @@ module.exports = {
       DEFAULT: theme("colors.gray.300", "currentColor"),
       primary: "#eaeaea",
       secondary: "#eaeaea",
+      borderColor: "#363A3D"
     }),
     extend: {},
   },
