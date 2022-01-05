@@ -35,6 +35,14 @@ const Footer = () => {
             >
               GitHub
             </a>
+            <a
+              href="https://git.vogklis.com"
+              className={"transition-colors hover:text-gray-500"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Git Server
+            </a>
           </div>
         </div>
       </div>

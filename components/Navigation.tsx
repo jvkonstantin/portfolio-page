@@ -2,6 +2,9 @@ import Link from "next/link";
 import React from "react";
 import ThemeSwitch from "./ThemeSwitch";
 
+import PopME from "./Popover";
+import Example from "./Menu";
+
 const Navigation = () => {
   return (
     <div className="sticky top-0 z-20 bg-white border-b-2 border-primary md:py-6 dark:bg-black">
@@ -15,6 +18,8 @@ const Navigation = () => {
             Fappas
           </a>
         </Link>
+        {/* <PopME /> */}
+        <Example />
         <ThemeSwitch />
       </div>
     </div>
